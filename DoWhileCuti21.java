@@ -24,8 +24,10 @@ public class DoWhileCuti21 {
                     System.out.println("Masukkan ulang jumlah hari cuti: ");
                     jumlahHari = sc.nextInt();
                     System.out.println("Sisa jatah cuti habis");
-                    break;
                 }
+        }else{
+            //Prgram akan berhenti jika input = t
+            break;
         }
     }while (jatahCuti > 0);
 } 
